@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url("code-symbols-programming-hjbyni9117oaqbap-hjbyni9117oaqbap.jpg");
+}
+
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: column;
+    height: fit-content;
+    width: fit-content;
+}
+li{
+    height: fit-content;
+    width: 700px;
+    position: relative;
+    background-color: blue;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: yellow;
+    margin: 2px;
+    padding: 5px;
+    transition: .5s;
+
+    
+}
+
+li:hover{
+    background-color: coral;
+   /* transition: .3s linear;*/
+}
+
+h3{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: antiquewhite;
+}
+p{
+    margin: 0px;
+}
+button{
+    background-color: yellow;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    position: relative;
+    left: 28%;
+}
+button:hover{
+    background-color: palegreen;
+}
+
+.container{
+    margin-top: 150px;
+    height: fit-content;
+    width: fit-content;
+    max-width: 800px;
+    
+
+}
+.content-container {
+    height: 0px;
+    width: 330px;
+    visibility: hidden;
+    color: whitesmoke;
+}
+
